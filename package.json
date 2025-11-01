@@ -10,11 +10,7 @@
     "start": "node ./dist/index.js",
     "test": "jest",
     "test:coverage": "npm run pretest && jest --coverage",
-    "pretest": "ts-node ./src/data --clear",
-    "postinstall": "npm i --no-save @types/node@^24"
-  },
-  "engines": {
-    "node": ">=18 <=22"
+    "pretest": "ts-node ./src/data --clear"
   },
   "author": "Juan De la torre @codigoconjuan",
   "license": "ISC",
@@ -36,6 +32,7 @@
     "sequelize-typescript": "^2.1.6"
   },
   "devDependencies": {
+    "@types/colors": "^1.2.1",
     "@types/bcrypt": "^5.0.2",
     "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
