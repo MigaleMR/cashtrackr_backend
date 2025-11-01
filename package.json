@@ -14,6 +14,9 @@
   },
   "author": "Juan De la torre @codigoconjuan",
   "license": "ISC",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "colors": "^1.4.0",
